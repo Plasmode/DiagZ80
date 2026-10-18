@@ -22,4 +22,4 @@ A small PC board consists of a 128K RAM and CPLD.  The CPLD contains serial boot
 - [CPLD design](DiagZ80_r0_cpld.zip) files
   - CPLD design in [PDF schematic](diagz80_r0_cpld_scm.pdf)
 ### Software
-
+DiagZ80 is software compatible with [ZRC](https://github.com/Plasmode/ZRC)
