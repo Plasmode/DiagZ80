@@ -16,10 +16,10 @@ Z80 ancillary logic for solderless breadboard.  Create a simple Z80 computer on 
 ### Theory of Operation
 etc
 ### Design Files
-- Schematic
-- Gerber photoplots
+- [Schematic](diagZ80_r0_scm.pdf)
+- [Gerber photoplots](diagz80_r0_gerber.zip)
 - Bill of Materials
-- CPLD design files
-  - CPLD design in PDF schematic
+- [CPLD design](DiagZ80_r0_cpld.zip) files
+  - CPLD design in [PDF schematic](diagz80_r0_cpld_scm.pdf)
 ### Software
 
