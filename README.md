@@ -1,2 +1,25 @@
 # DiagZ80
 Z80 ancillary logic for solderless breadboard.  Create a simple Z80 computer on solderless breadboard to support experimentations.  Design is derived from ZRCC.
+
+### Features
+- Ancillary logic plugged over a Z80 on solderless breadboard to form a simple Z80 computer
+- 128K RAM
+- EPM7064S CPLD
+  - ROM for serial bootstrap
+  - Hardware serial receiver
+  - Bit-bang serial transmitter
+  - 4 banks of 32K RAM
+  - Page register for ROM
+- Based on ZRCC design
+- Software compatible with ZRCC
+- Require external oscillator and reset supervisor
+### Theory of Operation
+etc
+### Design Files
+- Schematic
+- Gerber photoplots
+- Bill of Materials
+- CPLD design files
+  - CPLD design in PDF schematic
+### Software
+
