@@ -14,7 +14,7 @@ Z80 ancillary logic for solderless breadboard.  Create a simple Z80 computer on 
 - Software compatible with ZRCC
 - Require external oscillator and reset supervisor
 ### Theory of Operation
-etc
+A small PC board consists of a 128K RAM and CPLD.  The CPLD contains serial bootstrap ROM, serial port, address decode, bank manager for 4 banks of 32K, and page register to swap out ROM.  The two rows of pins are 0.9" apart with same signal assignments as a Z80.  The two rows of pins are designed to straddle over a Z80.  The board works with the Z80 as a simple computer with 128K RAM and enough ROM to boot serially and load/run programs into RAM.  0.9" spacing is enough to bring out wires from solderless breadboard to experiment with other circuits on the breadboard.  The design purpose is to have a pre-built, working computer to assist with testing of circuitries on the breadboard.  An external oscillator and a voltage supervisor is needed to provide system clock and reset signals.  Nominal operating frequency is 22MHz for 115200 baud serial operation.
 ### Design Files
 - [Schematic](diagZ80_r0_scm.pdf)
 - [Gerber photoplots](diagz80_r0_gerber.zip)
