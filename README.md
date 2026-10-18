@@ -1,6 +1,6 @@
 # DiagZ80
 Z80 ancillary logic for solderless breadboard.  Create a simple Z80 computer on solderless breadboard to support experimentations.  Design is derived from ZRCC.
-
+[diagZ80](DiagZ80_solderless_breadboard.jpg)
 ### Features
 - Ancillary logic plugged over a Z80 on solderless breadboard to form a simple Z80 computer
 - 128K RAM
